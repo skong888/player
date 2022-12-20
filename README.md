@@ -2,13 +2,13 @@
 This tool was created to automate the update of music players using an API. 
 
 File structure : 
-    ├── root
-        ├── Dockerfile
-        ├── input.csv
-        ├── main.go 
-        └── tool
-            ├── updater.go
-            └── updater_test.go 
+- root
+    - Dockerfile
+    - input.csv
+    - main.go 
+    - tool
+        - updater.go
+        - updater_test.go 
 
 - Dockerfile : container for app
 - input.csv : example input for tool 
