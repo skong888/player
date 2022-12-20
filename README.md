@@ -97,7 +97,7 @@ Content-Type: application/json
 }
 ```
 - Function: Calls the API to update the applications
-- To use : tool.UpdateVersion(<mac_address>)
+- To use : tool.UpdateVersion(```mac_address```)
 #### Updater
 - Input: CSV file (string)
 ```Example of CSV file
@@ -107,9 +107,9 @@ a2:bb:cc:dd:ee:ff, 1, 2, 3
 a3:bb:cc:dd:ee:ff, 1, 2, 3
 a4:bb:cc:dd:ee:ff, 1, 2, 3
 ```
-- Output: success (string) if everything is updated or an error 
+- Output: "success" (string) if everything is updated or an error 
 - Function: Parses through the csv file and calls the UpdateVersion function
-- To use: tool.Updater(<csv_file>)
+- To use: tool.Updater(```csv_file```)
 
 
 ## Developper
