@@ -57,8 +57,9 @@ There is 2 functions in the package
     - To use: tool.Updater(<csv_file>)
 
 ## Developper
-Developper documentation on how to build and run tests 
-You can use the tool locally or through the docker container. 
+Developper documentation on how to build and run tests
+
+You can use the tool locally or through the docker container
 
 ### Locally
 To build : 
