@@ -14,9 +14,13 @@ File structure :
 ```
 ### Information: 
 Dockerfile : container for app
+
 input.csv : example input for tool 
+
 main.go : small script to run tool 
+
 updater.go : code for Player developper
+
 updater_test.go : unit test
 
 ## Technical decisions and Assumptions
