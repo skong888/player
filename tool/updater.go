@@ -14,6 +14,7 @@ import (
 	"time"
 )
 
+// Struct for csv file
 type inputData struct {
 	mac_address string
 	id1         int
@@ -51,6 +52,7 @@ type responseData struct {
 	}
 */
 
+// UpdateVersion calls the API to update the applications
 func UpdateVersion(mac_address string) (responseData, error) {
 	fmt.Println("\nUpdating", mac_address)
 	var response responseData
@@ -131,6 +133,7 @@ func UpdateVersion(mac_address string) (responseData, error) {
 	return response, nil
 }
 
+// Updater parses through the csv file and calls the UpdateVersion function
 func Updater(csvFile string) (string, error) {
 	f, err := os.Open(csvFile)
 	if err != nil {
